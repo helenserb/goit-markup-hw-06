@@ -306,9 +306,8 @@ color: var(--white-text-color);
    margin-right: 30px;
 }
 .employee-description{
-    max- width: 270px;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    max-width: 270px;
+    padding: 30px 32px;
     text-align: center;
     background-color: var(--main-bcg-color);
 }
@@ -330,9 +329,9 @@ color: var(--white-text-color);
     justify-content: center;
     gap: 10px;
 }
-.social-item:not(:last-child){
+/* .social-item:not(:last-child){
     margin-right: 10px;
-}
+} */
 .social-link{
     display: flex;
     justify-content: center;
