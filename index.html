@@ -442,24 +442,18 @@
               </li>
             </ul>
           </div>
-                <div class="subscribe-wrap">
-                  <label for="email">
-                    <strong class="uppercase join">Підпишіться на розсилку</strong>
-                  </label>
-                  <div class="subscribe-form">
-                    <div class="form-element">
-                  <input type="email" name="email" id="email" placeholder="E-mail">
-                </div>
-                <button type="submit" class="subscribe">Підписатися
-                  <svg
-                    class="footer-send-icon"
-                    width="24px">
+
+          <form class="subscribe-form" name="subscribe-form" autocomplete="on">
+          <label class="subscribe-label"><b>Підпишіться на розсилку</b>
+              <input class="subscribe-field" type="email" name="subscribe-email" placeholder="E-mail">
+          </label>
+                        <button class="subscribe-btn" type="submit">Підписатися
+                  <svg class="subscribe-send-icon" width="24px">
                     <use href="./images/icons.svg#icon-send"></use>
                   </svg>
-                </button>
-                  </div>
-                
-                </div>
+              </button>
+          </form>
+    
             
         </div>
         </div>
@@ -511,17 +505,16 @@
                 <textarea name="coment" id="coment" rows="10" placeholder="Введіть текст"></textarea>
                 </div>
 
-                <div class="accept">
-                    <input type="checkbox" id="accept" name="accept" class="visually-hidden" required> 
-                    <label for="accept" class="label-checkbox">
-                        <div class="checkbox">
-                            <svg width="12px" height="12px">
+
+                <label class="checkbox-label">
+                  <input class="checkbox visually-hidden" type="checkbox" name="accept" value="conditions">
+                  <span class="check-icon">
+                    <svg width="12px" height="12px">
                              <use href="./images/icons.svg#icon-check"></use>
                              </svg> 
-                         </div>  
-                    Погоджуюся з розсилкою та приймаю <a href="" class="accept-link">Умови договору</a></label>
-                        
-                </div>
+                  </span>
+                  Погоджуюся з розсилкою та приймаю <a href="" class="accept-link">Умови договору</a>
+                </label>
 
                 <button class="send-button">Відправити</button>
             </form>
